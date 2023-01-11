@@ -18,7 +18,7 @@ const Skelton = ({ sdata }) => {
                                     <Skeleton variant='text' animation='wave' width={'12rem'}></Skeleton>
                                     <Skeleton variant='text' width={'5rem'} />
                                 </div>
-                                <div className='d-flex justify-content-between align-content-center' >
+                                <div   className='d-flex justify-content-between align-content-center' >
                                     <Skeleton variant='circular' animation='wave' width={20} height={20}></Skeleton>
                                     <Skeleton variant='text' width={'18rem'} />
                                 </div>
