@@ -1,0 +1,75 @@
+.upper_data h4{
+    font-size: 18px;
+    color:black;
+    letter-spacing: .5px;
+    font-weight: 500;
+
+}
+.lower_datas .limb{
+ width:18px;
+}
+.row{
+  width: 90%;
+  margin:auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap:5px 5px
+  
+}
+.lower_datas .laimg{
+  width: 45px;
+}
+.lower_datas{
+  font-size: 14px;
+  margin-top: 8px;
+  letter-spacing: .1px;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+.lower_datas p{
+ margin-top: 10px;
+}
+
+.hover{
+  border-radius: 10px;
+  cursor: pointer;
+  border:1px solid black;
+  
+}
+.hover:hover{
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+  transition: .2s;
+}
+
+.cd{
+  border-radius: 16px;
+  margin-top: 20px;
+  height: 16rem;  
+}
+.lower_data h5{
+  font-size: 15px;
+  letter-spacing: .4px;
+  font-weight: 400;
+  color: black;
+}
+
+.lower_data span{
+    font-size: 15px;
+    letter-spacing: .4px;
+    color: black;
+}
+.body{
+    font-family: sans-serif;
+}
+
+.upper_data span{
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    font-weight:600;
+    padding: 2px  1px;
+    width: 45px;
+}
